@@ -22,7 +22,7 @@ const Intro = () => {
  
 
 
-    await axios.get("/wp-json/wp/v2/pages/9").then((response) => {
+    await axios.get("/wp-json/wp/v2/pages/6").then((response) => {
     
       setTitle(response.data.title.rendered);
       setData(removeTags(response.data.excerpt.rendered));
