@@ -49,12 +49,13 @@ const NotFound = () => {
           <div className="row" data-aos="fade-in">
             <div dangerouslySetInnerHTML={{ __html: data }} />
           </div>
-          <h1 className="text-light">
-              <Link to="/">
-               Go to Home
-                
-              </Link>
-          </h1>
+          <h2 className="text-dark">
+          <i class="bi bi-emoji-smile"></i>
+          <br/>
+          <br/>
+          
+            <Link to="/">Go to Home</Link>
+          </h2>
         </div>
       </section>
       {/* <!-- End About Section --> */}
