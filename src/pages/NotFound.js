@@ -54,7 +54,7 @@ const NotFound = () => {
           <br/>
           <br/>
           
-            <Link to="/">Go to Home</Link>
+            <Link to="/">Go to Index Page</Link>
           </h2>
         </div>
       </section>
