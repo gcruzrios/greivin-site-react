@@ -59,7 +59,7 @@ const Header = () => {
               </li>
               <li>
                 <Link to="/about">
-                  <i className="bx bx-user"></i> <span>About</span>
+                  <i className="bx bx-user"></i> <span>About me</span>
                 </Link>
                 {/* <a href="/about" className="nav-link scrollto">
                   <i className="bx bx-user"></i> <span>About</span>

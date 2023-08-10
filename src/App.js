@@ -16,6 +16,7 @@ import Resume from "./pages/Resume";
 import Services from "./pages/Services";
 import Testimonial from "./pages/Testimonial";
 import Portfolio from "./pages/Portfolio";
+import TestPage from "./pages/TestPage";
 
 const estaAutenticado = () => {
   const token = localStorage.getItem("Token");
@@ -42,6 +43,7 @@ function App() {
           <Route path="/services" exact element={<Services />} />
           <Route path="/portfolio" exact element={<Portfolio />} />
           <Route path="/testimonial" exact element={<Testimonial />} />
+          <Route path="/test" exact element={<TestPage />} />
           <Route path="/contact" exact element={<Contact />} />
           {/* <Route
             exact

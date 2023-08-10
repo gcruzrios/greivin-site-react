@@ -5,6 +5,8 @@ import axios from 'axios';
 const Intro = () => {
   const [data, setData] = useState([]);
   const [title, setTitle] = useState([]);
+  const [resumen, setResumen] = useState([]);
+  
 
   function removeTags(str) {
     if ((str===null) || (str===''))
@@ -25,8 +27,8 @@ const Intro = () => {
     await axios.get("/wp-json/wp/v2/pages/6").then((response) => {
     
       setTitle(response.data.title.rendered);
-      setData(removeTags(response.data.excerpt.rendered));
-     // setData(response.data.excerpt.rendered);
+      setData(response.data.content.rendered);
+      setResumen(removeTags(response.data.excerpt.rendered));
 
     });
   };
@@ -44,16 +46,19 @@ const Intro = () => {
         <div className="hero-container" data-aos="fade-in">
           <h1>{title}</h1>
           
-           {/* <p>
-            I'm{" "}
+          <p>
+            {resumen}
+          </p>  
+
+          {/* I'm{" "}
             <span
               className="typed"
               data-typed-items="Designer, Developer, Freelancer, Photographer"
-            ></span>
-          </p>  */}
-          <p>
-            {data}
-          </p> 
+            ></span> */}
+ 
+
+          {/* <div dangerouslySetInnerHTML={{ __html: data }}/>  */}
+
         </div>
       </section>
       {/* <!-- End Hero --> */}
