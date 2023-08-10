@@ -24,7 +24,7 @@ const Contact = () => {
  
 
 
-    await axios.get("/wp-json/wp/v2/pages/115").then((response) => {
+    await axios.get("/wp-json/wp/v2/pages/29471").then((response) => {
     
       setTitle(response.data.title.rendered);
       //setData(removeTags(response.data.content.rendered));

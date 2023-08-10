@@ -26,7 +26,7 @@ const Resume = () => {
  
 
 
-    await axios.get("/wp-json/wp/v2/pages/68").then((response) => {
+    await axios.get("/wp-json/wp/v2/pages/29466").then((response) => {
     
       setTitle(response.data.title.rendered);
       //setData(removeTags(response.data.content.rendered));
@@ -51,7 +51,7 @@ const Resume = () => {
                 
           
         </div>
-        <div dangerouslySetInnerHTML={{ __html: data }} />
+          <div dangerouslySetInnerHTML={{ __html: data }} />
         </div>
       </section>
       {/* <!-- End Resume Section --> */}

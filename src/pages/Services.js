@@ -24,7 +24,7 @@ const Services = () => {
  
 
 
-    await axios.get("/wp-json/wp/v2/pages/103").then((response) => {
+    await axios.get("/wp-json/wp/v2/pages/29468").then((response) => {
     
       setTitle(response.data.title.rendered);
       //setData(removeTags(response.data.content.rendered));
