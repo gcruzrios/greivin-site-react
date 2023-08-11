@@ -5,7 +5,8 @@ import App from './App';
 import reportWebVitals from './reportWebVitals';
 import axios from 'axios';
 
-axios.defaults.baseURL = 'https://api.greivin.online';
+//axios.defaults.baseURL = 'https://api.greivin.online';
+axios.defaults.baseURL = 'https://api.greiv.in';
 const root = ReactDOM.createRoot(document.getElementById('root'));
 root.render(
   <React.StrictMode>
