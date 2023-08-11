@@ -98,6 +98,14 @@ const Header = () => {
                 </a> */}
               </li>
               <li>
+                <Link to="/news">
+                  <i className="bx bx-server"></i> <span>News</span>
+                </Link>
+                {/* <a href="/services" className="nav-link scrollto">
+                  <i className="bx bx-server"></i> <span>Services</span>
+                </a> */}
+              </li>
+              <li>
                 <Link to="/contact">
                   <i className="bx bx-envelope"></i> <span>Contact</span>
                 </Link>
