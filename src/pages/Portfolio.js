@@ -44,20 +44,17 @@ const Portfolio = () => {
         <div className="container">
           <div className="section-title">
             <h2>{title}</h2>
-            
           </div>
 
           <div className="row" data-aos="fade-up">
-            
+            <div dangerouslySetInnerHTML={{ __html: data }} />
           </div>
 
           <div
             className="row portfolio-container"
             data-aos="fade-up"
             data-aos-delay="100"
-          >
-            <div dangerouslySetInnerHTML={{ __html: data }} />
-          </div>
+          ></div>
         </div>
       </section>
       {/* <!-- End Portfolio Section --> */}
