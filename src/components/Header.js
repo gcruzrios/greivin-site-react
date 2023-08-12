@@ -29,19 +29,19 @@ const Header = () => {
               {/* <a href="/">Alex Smith</a> */}
             </h1>
             <div className="social-links mt-3 text-center">
-              <a href="#" className="twitter">
+              <a href="https://twitter.com/gcruzrios" className="twitter">
                 <i className="bx bxl-twitter"></i>
               </a>
-              <a href="#" className="facebook">
+              <a href="https://facebook.com/gcruzrios" className="facebook">
                 <i className="bx bxl-facebook"></i>
               </a>
-              <a href="#" className="instagram">
+              <a href="https://instagram.com/gcruzrios" className="instagram">
                 <i className="bx bxl-instagram"></i>
               </a>
-              <a href="#" className="google-plus">
+              <a href="https://github.com/gcruzrios" className="google-plus">
                 <i className="bx bxl-github"></i>
               </a>
-              <a href="#" className="linkedin">
+              <a href="https://www.linkedin.com/in/gcruzrios/" className="linkedin">
                 <i className="bx bxl-linkedin"></i>
               </a>
             </div>
