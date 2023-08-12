@@ -99,7 +99,7 @@ const Header = () => {
               </li>
               <li>
                 <Link to="/news">
-                  <i className="bx bx-server"></i> <span>News</span>
+                  <i className="bx bx-news"></i> <span>News</span>
                 </Link>
                 {/* <a href="/services" className="nav-link scrollto">
                   <i className="bx bx-server"></i> <span>Services</span>
